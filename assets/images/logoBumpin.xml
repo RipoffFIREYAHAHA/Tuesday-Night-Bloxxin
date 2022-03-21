@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beh.png"><SubTexture name="BUMP0000" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0001" x="588" y="411" width="584" height="401" frameX="-6" frameY="-5" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0002" x="597" y="0" width="589" height="405" frameX="-4" frameY="-3" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0003" x="0" y="0" width="597" height="411" frameX="0" frameY="0" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0004" x="588" y="411" width="584" height="401" frameX="-6" frameY="-5" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0005" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0006" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0007" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0008" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0009" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0010" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0011" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+<SubTexture name="BUMP0012" x="0" y="411" width="588" height="403" frameX="-4" frameY="-4" frameWidth="597" frameHeight="411" />
+</TextureAtlas>
