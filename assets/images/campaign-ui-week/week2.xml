@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="campaign_menu_UI_assets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="week2 select0000" x="0" y="571" width="361" height="87"/>
+	<SubTexture name="week2 select0001" x="371" y="571" width="361" height="87"/>
+</TextureAtlas>
