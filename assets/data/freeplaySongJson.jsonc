@@ -1,0 +1,67 @@
+[
+     {
+         "songs" : [
+             {
+                 "week" : 0
+                ,"character" : "smiler"
+                ,"name" : "smiling"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "stitchface"
+                ,"name" : "Clout"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "Infectious"
+                ,"character" : "smilermad"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "roleplayer"
+                ,"name" : "royale"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "roleplay"
+                ,"character" : "roleplayer"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "roleplayer"
+                ,"name" : "mary sue"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "march"
+                ,"character" : "soldier"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "conflict"
+                ,"character" : "soldier"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "headshot"
+                ,"character" : "tryhard"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "tryhard"
+                ,"name" : "harsh"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "rager"
+                ,"name" : "compulsion"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "tantrum"
+                ,"character" : "rager"
+            }
+        ]
+        ,"name" : "Base Game"
+    }
+]

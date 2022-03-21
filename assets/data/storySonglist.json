@@ -1,0 +1,52 @@
+{
+     "version" : 2
+    ,"weekNames" : [
+
+    ]
+    ,"songs" : [
+
+    ]
+    ,"characters" : [
+
+    ]
+    ,"weeks" : [
+         {
+             "bf" : "bf"
+            ,"animation" : "WEEK1 select"
+            ,"songs" : [
+                 "smiling"
+                ,"Clout"
+                ,"Infectious"
+            ]
+            ,"dad" : "dad"
+            ,"gf" : "gf"
+            ,"name" : "Just playin some Roblox"
+        }
+        ,{
+             "animation" : "week2 select"
+            ,"bf" : "bf"
+            ,"songs" : [
+                 "royale"
+                ,"roleplay"
+                ,"mary sue"
+                ,"march"
+            ]
+            ,"name" : "*Puts Title* *writes*"
+            ,"gf" : "gf"
+            ,"dad" : "roleplayer"
+        }
+        ,{
+             "songs" : [
+                 "headshot"
+                ,"harsh"
+                ,"compulsion"
+                ,"tantrum"
+            ]
+            ,"bf" : "bf"
+            ,"gf" : "gf"
+            ,"dad" : "tryhard"
+            ,"name" : "Im on top of the lead! Lets gooo!!"
+            ,"animation" : "WEEK1 select"
+        }
+    ]
+}
