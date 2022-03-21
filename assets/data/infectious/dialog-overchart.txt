@@ -1,0 +1,8 @@
+[178[ [179[ [223[ [216[ |Smiler| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~      there u are u bastard!
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      wut?
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   Yeah, thats right! No tags!
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~      No other way to go huh??!
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~      this is ur last stand u stupid ass kid
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Yeah cmon tough guy
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~      can u say other words for gods sake??!

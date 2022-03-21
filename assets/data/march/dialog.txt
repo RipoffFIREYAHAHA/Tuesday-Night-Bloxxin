@@ -1,0 +1,22 @@
+[178[ [179[ [223[ [216[ |Soldier| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      HEY! BF, WHY AREN'T YOU FOLLOWING MY ORDER
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep skedeboop
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      DO 200 PUSH UPS NOW
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Bop beep boop
+:soldier: !godwhy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      Holy #### Do I need to have a translator..
+:soldier: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      Talk ######## Punk.
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      WHY ARE YOU HERE GIRL WITH A RED SKIRT
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      GET OUT OF THE ####### RED LINE
+:gf: !offended! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      !
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Well, I bet you cant rap.
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Bippity Bop
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      THIS IS A MILITARY JOB, TAKE THIS JOB SERIOUSLY
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Must be a coward
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      WHY WOULD I WASTE MY TIME HERE,
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      RAP BATTLE
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      You cant rap are you.
+:soldier: !godwhy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      I wish I have admin here so I can ban the #### out of you two
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      FINE! ILL RAP.
+:soldier: !weird! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      Weird players..
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Boop

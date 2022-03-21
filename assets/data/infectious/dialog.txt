@@ -1,0 +1,18 @@
+[178[ [179[ [223[ [216[ |Smiler| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~      IM BACK BOYFRIEND FROM FRIDAY NIGHT FUNKIN!
+:bf: !suprised! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep!!
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   GUESS WHAT? I GOT A HACK SCRIPT TO REMOVE THE TAGS
+:bf: !fear! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      ??
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   EXECUTE:FILTER.ENABLED = FALSE;
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   NOW, I MEANT TO SAY
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   TALK NORMALLY! GOD
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      THATS WHAT I SAID!
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~  EXECUTE:ONKICKSTATE.KICKVALUE = ["STITCHFACE"];
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   ONKICKSTATE.KICKVALUE.STITCHFACE.REASON = "SHUT UP";
+:bf: !fear! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      beep bop?
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   EXECUTE:FILTER.BEEPBOPTHING = TRUE;
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   TRANSLATE:[RAP BATTLE?]
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   AGAIN?
+:bf: !fear! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      beep bop skedeboop, beep beep!
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   TRANSLATE:[IF YOU WIN, I WONT REPORT YOU!]
+:smilermad: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#38299D! ?#D50000? .. ~~   ALRIGHT! CHALLENGE ACCEPTED BOYFRIEND FROM FRIDAY NIGHT FUNKIN!

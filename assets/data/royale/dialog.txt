@@ -1,0 +1,23 @@
+[178[ [179[ [223[ [216[ |Roleplayer| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:roleplayer: !RoyaleHigh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Punches*
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Dodges*
+:roleplayer: !RoyalHigh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Punches Again*
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Dodges Again*
+:roleplayer: !RoyaleHigh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Summons Demon*
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Summons demon too*
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Sings*
+:roleplayer: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      ?
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Sings Harder*
+:roleplayer: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      What? That is some odd roleplay
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Sings Aggresively*
+:roleplayer: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Uhh...
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      He wants to have a battle.
+:roleplayer: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      A battle?
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      A Rap battle.
+:roleplayer: !ummno! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Umm, rap battles is not actually my thing.
+:gf: !notmicro! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Well too bad, heres the microphone
+:roleplayer: !god! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      !
+:roleplayer: !beep! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Ok, looks like, This is my first time. I will try my best I guess..
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep
+:roleplayer: !alright! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Umm,
+:roleplayer: !beep! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Beep to you to?

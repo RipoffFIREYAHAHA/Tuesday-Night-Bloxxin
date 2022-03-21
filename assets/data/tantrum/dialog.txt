@@ -1,0 +1,38 @@
+[178[ [179[ [223[ [216[ |Rager| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      bf, uhh
+:gf: !heyyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      ...
+:rager: !letsgoo! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      I win!!!
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      ez
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      ez
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      ez
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      ez
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      z
+:rager: !z! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      *ez
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      boop beep bop
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 What should we do, if I say you win
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 It will get backfired, like last time
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 and he also cheats..
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      /w girlfriend694201 Beep bop boop,
+:gf: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Yeah, you cheated!
+:rager: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      so?
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 Nevermind, that didnt work at all
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      /w girlfriend694201 Beeeep...
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      /w girlfriend694201 !
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      /w girlfriend694201 Beep boop bap beepity bop!
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 are you sure its a good idea?
+:rager: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Umm, are guys responding?
+:rager: !xd! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Are you guys angry that you lose?? XD
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      /w girlfriend694201 Boop!
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 Ok, never hurt to try
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 Rage dude, how about a second round
+:gf: !woops! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      /w boyfriend20493 woops
+:gf: !types! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      ___
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Rage dude, how about a second round
+:rager: !ez! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Second round would be ez!
+:gf: !hah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Sure sure, bf has some heavy lines to put up
+:rager: !really! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      What am I suppose to be, scared??!
+:gf: !hah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      No, bf will rap you so hard
+:gf: !hah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      That he will make you rage quit
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      bappity boop!
+:rager: !really! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Ok, let me hear his
+:rager: !bars! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      "lines"

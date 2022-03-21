@@ -1,0 +1,6 @@
+bf
+gf
+roleplayer
+roleplayercolor
+bfcolorroleplay
+gfcolorroleplay

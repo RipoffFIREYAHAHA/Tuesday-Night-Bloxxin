@@ -1,0 +1,4 @@
+[178[ [179[ [223[ [216[ |Rager| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      <:)
+:rager: !letsgoo! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      . . .
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      <:(

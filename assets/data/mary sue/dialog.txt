@@ -1,0 +1,15 @@
+[178[ [179[ [223[ [216[ |Roleplayer| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:roleplayer: !owo! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Nicely done!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Dabs*
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep bop skedeboop
+:roleplayer: !but! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Uhh
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      "More rap" he said
+:roleplayer: !yes! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Ok! But, I have a pool class in 2:00 pm, so make it quick
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Actually, do you have flaws? Since your every single half I could imagine.
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Do you even have flaws?
+:roleplayer: !uwu! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      No, Im perfect! No flaws nor weaknesses
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Sounds like a mary sue
+:roleplayer: !but! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Mary Sue? Whats that?
+:gf: !well! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      You will know.
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep boop
+:roleplayer: !but! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Oh Ok

@@ -1,0 +1,30 @@
+[178[ [179[ [223[ [216[ |Rager| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !supersaiyan! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Calm down dude,
+:gf: !supersaiyan! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Its just a game
+:rager: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Just a game?!
+:rager: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Just a game???!!!
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Are you serious??!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep, bop, skedeboop
+:rager: !great! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Great, first I die like
+:rager: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      I dont know, the amount of atoms in the universe
+:rager: !great! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Second of all,
+:rager: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      I have to deal with a beep boop guy..
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep...
+:gf: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      Hey, no need to be so harsh on bf..
+:rager: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      If you dont want me insult your boyfriend, then
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      stop killing me!!!!
+:gf: !supersaiyan! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      Thats just part of the game! What? You think I just greet "Good evening sir" in a murder game??!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~     Bop boop skedebeep
+:gf: !huh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Ooh, good idea bf.
+:rager: !great! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      I can hear you!
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      How about this.
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      We settle this in a rap battle
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      If you win, we are not allow to kill you
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      But if bf wins, we can kill you whenever we want
+:rager: !wow! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Rap battle??!
+:rager: !hehe! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Heheh, baby's game. its ez!
+:gf: !wantmicro! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Heres the mic-
+:gf: !snatch! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      !
+:gf: !angerspeak! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      Dont you snatch the mic like that
+:rager: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      Idc
+:gf: !anger! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      ...

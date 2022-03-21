@@ -1,0 +1,8 @@
+[178[ [179[ [223[ [216[ |Smilerlol| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      OMG!!! ARE YOU BOYFRIEND FROM FNF??!
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      im not bf
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      im pico in bf's account
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Plus you are ####### ####
+:smiler: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      YOU DARE SPEAK TO ME LIKE THAT..
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      yeah i would dare
+:smiler: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      you dont know what im capable of, kid..

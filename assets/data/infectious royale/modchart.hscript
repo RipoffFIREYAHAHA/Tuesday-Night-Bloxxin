@@ -1,0 +1,1213 @@
+var Allowit = 0;
+var EnemyArrow = 0;
+var RandomHealth = 0;
+var trail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
+var Enemyturn = 1;
+var purePain = 0;
+//roleplayer mechanic
+var ClothePick = 2;
+var FacePick = 0;
+var FacesCount = 0;
+var ShirtPick = 0;
+var ShirtCount = 0;
+var LegsPick = 0;
+var LegsCount = 0;
+var AllowClothe = 0;
+var FaceAnwerNum = 0;
+var ShirtAnswerNum = 0;
+var PantsAsnwerNum = 0;
+var KillBF = 0;
+var shootall = 0;
+
+var Cheatcode = 0;
+var handmove = 0;
+
+hand = new FlxSprite().loadGraphic('assets/images/UpperScreen/Rager/Hand' + Std.random(18) + '.png');
+	hand.antialiasing = true;
+	hand.scrollFactor.set();
+	hand.screenCenter();
+	hand.cameras = [camHUD];
+	hand.x = 1500;
+	hand.angle = -90;
+
+soldiersold = new Character(300, 100, 'Corruptedsoldier');
+smilerthing = new Character(-150, 100, 'smilermad');
+smilerthing.alpha = 0.5;
+
+Mic = new FlxSprite().loadGraphic('assets/images/UpperScreen/Stitch/manual.png');
+	Mic.antialiasing = true;
+	Mic.scrollFactor.set();
+	Mic.screenCenter();
+	Mic.cameras = [camHUD];
+
+// Enemy turn hints:
+// 1  Smiler
+// 2  Stitch
+// 3  Roleplayer
+// 4  Serious Roleplayer
+// 5  Tryhard
+// 6  Rager
+
+//roleplayer mechanic
+
+arrowthing = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Arrow.png');
+	arrowthing.antialiasing = true;
+	arrowthing.scrollFactor.set();
+	arrowthing.screenCenter();
+	arrowthing.cameras = [camHUD];
+	arrowthing.x += 500;
+	arrowthing.alpha = 0;
+
+arrowright = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Arrow.png');
+	arrowright.antialiasing = true;
+	arrowright.scrollFactor.set();
+	arrowright.screenCenter();
+	arrowright.cameras = [camHUD];
+	arrowright.angle = 180;
+	arrowright.x += 150;
+	arrowright.alpha = 0;
+	
+// Faces Clother Persumed
+
+Faces = new FlxGroup();
+
+facePlaceholder = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Placeholder.png');
+	facePlaceholder.antialiasing = true;
+	facePlaceholder.scrollFactor.set();
+	facePlaceholder.screenCenter();
+	facePlaceholder.cameras = [camHUD];
+	facePlaceholder.x += 325;
+	facePlaceholder.y -= 220;
+	facePlaceholder.alpha = 0;
+	Faces.add(facePlaceholder);
+
+Chill = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/ChillFace.png');
+	Chill.antialiasing = true;
+	Chill.scrollFactor.set();
+	Chill.screenCenter();
+	Chill.cameras = [camHUD];
+	Chill.x += 325;
+	Chill.y -= 220;
+	Chill.alpha = 0;
+	Faces.add(Chill);
+	FacesCount += 1;
+	
+Drool = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Drool.png');
+	Drool.antialiasing = true;
+	Drool.scrollFactor.set();
+	Drool.screenCenter();
+	Drool.cameras = [camHUD];
+	Drool.x += 325;
+	Drool.y -= 220;
+	Drool.alpha = 0;
+	Faces.add(Drool);
+	FacesCount += 1;
+	
+Err = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Err.png');
+	Err.antialiasing = true;
+	Err.scrollFactor.set();
+	Err.screenCenter();
+	Err.cameras = [camHUD];
+	Err.x += 325;
+	Err.y -= 220;
+	Err.alpha = 0;
+	Faces.add(Err);
+	FacesCount += 1;
+	
+Happy = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Happy.png');
+	Happy.antialiasing = true;
+	Happy.scrollFactor.set();
+	Happy.screenCenter();
+	Happy.cameras = [camHUD];
+	Happy.x += 325;
+	Happy.y -= 220;
+	Happy.alpha = 0;
+	Faces.add(Happy);
+	FacesCount += 1;
+	
+HoldIt = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/HoldIt.png');
+	HoldIt.antialiasing = true;
+	HoldIt.scrollFactor.set();
+	HoldIt.screenCenter();
+	HoldIt.cameras = [camHUD];
+	HoldIt.x += 325;
+	HoldIt.y -= 220;
+	HoldIt.alpha = 0;
+	Faces.add(HoldIt);
+	FacesCount += 1;
+	
+Silly = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Silly.png');
+	Silly.antialiasing = true;
+	Silly.scrollFactor.set();
+	Silly.screenCenter();
+	Silly.cameras = [camHUD];
+	Silly.x += 325;
+	Silly.y -= 220;
+	Silly.alpha = 0;
+	Faces.add(Silly);
+	FacesCount += 1;
+	
+Skeptic = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Skeptic.png');
+	Skeptic.antialiasing = true;
+	Skeptic.scrollFactor.set();
+	Skeptic.screenCenter();
+	Skeptic.cameras = [camHUD];
+	Skeptic.x += 325;
+	Skeptic.y -= 220;
+	Skeptic.alpha = 0;
+	Faces.add(Skeptic);
+	FacesCount += 1;
+	
+Yawn = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Yawn.png');
+	Yawn.antialiasing = true;
+	Yawn.scrollFactor.set();
+	Yawn.screenCenter();
+	Yawn.cameras = [camHUD];
+	Yawn.x += 325;
+	Yawn.y -= 220;
+	Yawn.alpha = 0;
+	Faces.add(Yawn);
+	FacesCount += 1;
+	
+// Shirt
+
+Shirts = new FlxGroup();
+
+Cottage = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Cottage.png');
+	Cottage.antialiasing = true;
+	Cottage.scrollFactor.set();
+	Cottage.screenCenter();
+	Cottage.cameras = [camHUD];
+	Cottage.x += 325;
+	Cottage.alpha = 0;
+	Shirts.add(Cottage);
+	ShirtCount += 1;
+	
+Jacket = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Jacket.png');
+	Jacket.antialiasing = true;
+	Jacket.scrollFactor.set();
+	Jacket.screenCenter();
+	Jacket.cameras = [camHUD];
+	Jacket.x += 325;
+	Jacket.alpha = 0;
+	Shirts.add(Jacket);
+	ShirtCount += 1;
+	
+Pattern = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Pattern.png');
+	Pattern.antialiasing = true;
+	Pattern.scrollFactor.set();
+	Pattern.screenCenter();
+	Pattern.cameras = [camHUD];
+	Pattern.x += 325;
+	Pattern.alpha = 0;
+	Shirts.add(Pattern);
+	ShirtCount += 1;
+
+Rainbow = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Rainbow.png');
+	Rainbow.antialiasing = true;
+	Rainbow.scrollFactor.set();
+	Rainbow.screenCenter();
+	Rainbow.cameras = [camHUD];
+	Rainbow.x += 325;
+	Rainbow.alpha = 0;
+	Shirts.add(Rainbow);
+	ShirtCount += 1;
+	
+Suit = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Suit.png');
+	Suit.antialiasing = true;
+	Suit.scrollFactor.set();
+	Suit.screenCenter();
+	Suit.cameras = [camHUD];
+	Suit.x += 325;
+	Suit.alpha = 0;
+	Shirts.add(Suit);
+	ShirtCount += 1;
+	
+	// Pants
+	
+	Pants = new FlxGroup();
+	
+	Slacks = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Slacks.png');
+	Slacks.antialiasing = true;
+	Slacks.scrollFactor.set();
+	Slacks.screenCenter();
+	Slacks.cameras = [camHUD];
+	Slacks.x += 325;
+	Slacks.y += 220;
+	Slacks.alpha = 0;
+	Pants.add(Slacks);
+	LegsCount += 1;
+	
+	Jeans = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Jeans.png');
+	Jeans.antialiasing = true;
+	Jeans.scrollFactor.set();
+	Jeans.screenCenter();
+	Jeans.cameras = [camHUD];
+	Jeans.x += 325;
+	Jeans.y += 220;
+	Jeans.alpha = 0;
+	Pants.add(Jeans);
+	LegsCount += 1;
+	
+	Red = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Red.png');
+	Red.antialiasing = true;
+	Red.scrollFactor.set();
+	Red.screenCenter();
+	Red.cameras = [camHUD];
+	Red.x += 325;
+	Red.y += 220;
+	Red.alpha = 0;
+	Pants.add(Red);
+	LegsCount += 1;
+	
+	// Anwsers
+	
+	// Faces
+	
+	FacesAnswers = new FlxGroup();
+	
+	facePlaceholderA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Placeholder.png');
+	facePlaceholderA.antialiasing = true;
+	facePlaceholderA.scrollFactor.set();
+	facePlaceholderA.screenCenter();
+	facePlaceholderA.cameras = [camHUD];
+	facePlaceholderA.x -= 325;
+	facePlaceholderA.y -= 220;
+	facePlaceholderA.alpha = 0;
+	FacesAnswers.add(facePlaceholderA);
+	
+	ChillA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/ChillFace.png');
+	ChillA.antialiasing = true;
+	ChillA.scrollFactor.set();
+	ChillA.screenCenter();
+	ChillA.cameras = [camHUD];
+	ChillA.x -= 325;
+	ChillA.y -= 220;
+	ChillA.alpha = 0;
+	FacesAnswers.add(ChillA);
+	
+	DroolA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Drool.png');
+	DroolA.antialiasing = true;
+	DroolA.scrollFactor.set();
+	DroolA.screenCenter();
+	DroolA.cameras = [camHUD];
+	DroolA.x -= 325;
+	DroolA.y -= 220;
+	DroolA.alpha = 0;
+	FacesAnswers.add(DroolA);
+	
+ErrA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Err.png');
+	ErrA.antialiasing = true;
+	ErrA.scrollFactor.set();
+	ErrA.screenCenter();
+	ErrA.cameras = [camHUD];
+	ErrA.x -= 325;
+	ErrA.y -= 220;
+	ErrA.alpha = 0;
+	FacesAnswers.add(ErrA);
+	
+HappyA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Happy.png');
+	HappyA.antialiasing = true;
+	HappyA.scrollFactor.set();
+	HappyA.screenCenter();
+	HappyA.cameras = [camHUD];
+	HappyA.x -= 325;
+	HappyA.y -= 220;
+	HappyA.alpha = 0;
+	FacesAnswers.add(HappyA);
+	
+HoldItA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/HoldIt.png');
+	HoldItA.antialiasing = true;
+	HoldItA.scrollFactor.set();
+	HoldItA.screenCenter();
+	HoldItA.cameras = [camHUD];
+	HoldItA.x -= 325;
+	HoldItA.y -= 220;
+	HoldItA.alpha = 0;
+	FacesAnswers.add(HoldItA);
+	
+SillyA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Silly.png');
+	SillyA.antialiasing = true;
+	SillyA.scrollFactor.set();
+	SillyA.screenCenter();
+	SillyA.cameras = [camHUD];
+	SillyA.x -= 325;
+	SillyA.y -= 220;
+	SillyA.alpha = 0;
+	FacesAnswers.add(SillyA);
+	
+SkepticA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Skeptic.png');
+	SkepticA.antialiasing = true;
+	SkepticA.scrollFactor.set();
+	SkepticA.screenCenter();
+	SkepticA.cameras = [camHUD];
+	SkepticA.x -= 325;
+	SkepticA.y -= 220;
+	SkepticA.alpha = 0;
+	FacesAnswers.add(SkepticA);
+	
+YawnA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Faces/Yawn.png');
+	YawnA.antialiasing = true;
+	YawnA.scrollFactor.set();
+	YawnA.screenCenter();
+	YawnA.cameras = [camHUD];
+	YawnA.x -= 325;
+	YawnA.y -= 220;
+	YawnA.alpha = 0;
+	FacesAnswers.add(YawnA);
+	
+	// Shirts
+	
+	ShirtsAnswer = new FlxGroup();
+	
+	CottageA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Cottage.png');
+	CottageA.antialiasing = true;
+	CottageA.scrollFactor.set();
+	CottageA.screenCenter();
+	CottageA.cameras = [camHUD];
+	CottageA.x -= 325;
+	CottageA.alpha = 0;
+	ShirtsAnswer.add(CottageA);
+	
+JacketA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Jacket.png');
+	JacketA.antialiasing = true;
+	JacketA.scrollFactor.set();
+	JacketA.screenCenter();
+	JacketA.cameras = [camHUD];
+	JacketA.x -= 325;
+	JacketA.alpha = 0;
+	ShirtsAnswer.add(JacketA);
+	
+PatternA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Pattern.png');
+	PatternA.antialiasing = true;
+	PatternA.scrollFactor.set();
+	PatternA.screenCenter();
+	PatternA.cameras = [camHUD];
+	PatternA.x -= 325;
+	PatternA.alpha = 0;
+	ShirtsAnswer.add(PatternA);
+
+RainbowA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Rainbow.png');
+	RainbowA.antialiasing = true;
+	RainbowA.scrollFactor.set();
+	RainbowA.screenCenter();
+	RainbowA.cameras = [camHUD];
+	RainbowA.x -= 325;
+	RainbowA.alpha = 0;
+	ShirtsAnswer.add(RainbowA);
+	
+SuitA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Shirt/Suit.png');
+	SuitA.antialiasing = true;
+	SuitA.scrollFactor.set();
+	SuitA.screenCenter();
+	SuitA.cameras = [camHUD];
+	SuitA.x -= 325;
+	SuitA.alpha = 0;
+	ShirtsAnswer.add(SuitA);
+	
+	// Pants
+	
+	PantsAns = new FlxGroup();
+	
+	SlacksA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Slacks.png');
+	SlacksA.antialiasing = true;
+	SlacksA.scrollFactor.set();
+	SlacksA.screenCenter();
+	SlacksA.cameras = [camHUD];
+	SlacksA.x -= 325;
+	SlacksA.y += 220;
+	SlacksA.alpha = 0;
+	PantsAns.add(SlacksA);
+	
+	JeansA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Jeans.png');
+	JeansA.antialiasing = true;
+	JeansA.scrollFactor.set();
+	JeansA.screenCenter();
+	JeansA.cameras = [camHUD];
+	JeansA.x -= 325;
+	JeansA.y += 220;
+	JeansA.alpha = 0;
+	PantsAns.add(JeansA);
+	
+	RedA = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Legs/Red.png');
+	RedA.antialiasing = true;
+	RedA.scrollFactor.set();
+	RedA.screenCenter();
+	RedA.cameras = [camHUD];
+	RedA.x -= 325;
+	RedA.y += 220;
+	RedA.alpha = 0;
+	PantsAns.add(RedA);
+
+MANUAL = new FlxSprite().loadGraphic('assets/images/UpperScreen/Smile/white.png');
+	MANUAL.antialiasing = true;
+	MANUAL.scrollFactor.set();
+	MANUAL.screenCenter();
+	MANUAL.cameras = [camHUD];
+	MANUAL.alpha = 0;
+
+function start(song) {
+	dad.y -= 100;
+	gf.alpha = 0;
+currentPlayState.healthBar.createFilledBar(0xFFFFFFFF, 0xFF12404C);
+    addSprite(trail, BEHIND_ALL );
+	addSprite(MANUAL, BEHIND_ALL );
+	addSprite(hand, BEHIND_NONE);
+	
+	addSprite(arrowthing, BEHIND_NONE);
+addSprite(arrowright, BEHIND_NONE);
+addSprite(Faces, BEHIND_NONE);
+addSprite(Shirts, BEHIND_NONE);
+addSprite(Pants, BEHIND_NONE);
+addSprite(FacesAnswers, BEHIND_NONE);
+addSprite(ShirtsAnswer, BEHIND_NONE);
+addSprite(PantsAns, BEHIND_NONE);
+addSprite(hand, BEHIND_NONE);
+}
+
+
+function beatHit(beat)
+{
+	if (Enemyturn == 5)
+	{
+	Cheating();	
+	}
+	
+	if (Allowit == 0)
+{
+soldiersold.dance();
+smilerthing.dance();
+}
+
+if (Headshot == 0 && Enemyturn == 4)
+{
+	boyfriend.playAnim('dodge');
+}
+}
+
+function update(elapsed)
+{
+	if(FlxG.keys.justPressed.SPACE && Enemyturn == 4)
+{
+	camHUD.y = -20;
+	boyfriend.playAnim('dodge');
+	Headshot = 0;
+}
+	
+	if (currentPlayState.health > 1 && Enemyturn == 2)
+	{
+	purePain = 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/ANGRY' + TitleState.soundExt));
+	camHUD.shake(0.02, 0.04);
+	add(Mic, BEHIND_NONE);
+	}
+	
+	if (currentPlayState.health < 1 && Enemyturn == 2)
+	{
+	purePain = 0;
+	remove(Mic, BEHIND_NONE);
+	}
+	
+	// Roleplayer
+	
+	// Clothe Pick (You pick up and down)
+	if (AllowClothe == 1)
+	{
+	
+	if (ClothePick > 3)
+	{
+	ClothePick = 1;
+	}
+	
+	if (ClothePick < 1)
+	{
+	ClothePick = 3;
+	}
+	
+	// Selection
+	
+	if (ClothePick == 2)
+	{
+	arrowright.y = 300;
+	arrowthing.y = 300;
+	}
+	
+	if (ClothePick == 1)
+	{
+	arrowright.y = 100;
+	arrowthing.y = 100;
+	}
+	
+	if (ClothePick == 3)
+	{
+	arrowright.y = 500;
+	arrowthing.y = 500;
+	}
+	
+	if (FacePick > FacesCount)
+	{
+	FacePick = 1;	
+	}
+	
+	if (FacePick == 0)
+	{
+	FacePick = FacesCount;	
+	}
+	
+	if (ShirtPick > ShirtCount)
+	{
+	ShirtPick = 1;	
+	}
+	
+	if (ShirtPick == 0)
+	{
+	ShirtPick = ShirtCount;	
+	}
+	
+	if (LegsPick > LegsCount)
+	{
+	LegsPick = 1;	
+	}
+	
+	if (LegsPick == 0)
+	{
+	LegsPick = LegsCount;	
+	}
+	
+	// Select a face
+	
+	switch(FacePick)
+	{
+	case 1:
+	ClearFaces();
+	Chill.alpha = 1;
+	
+case 2:
+	ClearFaces();
+	Drool.alpha = 1;
+	
+case 3:
+	ClearFaces();
+	Err.alpha = 1;
+	
+case 4:
+	ClearFaces();
+	Happy.alpha = 1;
+	
+case 5:
+	ClearFaces();
+	HoldIt.alpha = 1;
+	
+case 6:
+	ClearFaces();
+	Silly.alpha = 1;
+	
+case 7:
+	ClearFaces();
+	Skeptic.alpha = 1;
+	
+case 8:
+	ClearFaces();
+	Yawn.alpha = 1;
+	}
+	
+	// Select a shirt
+	
+	switch(ShirtPick)
+	{
+	case 1:
+	ClearShirts();
+	Cottage.alpha = 1;
+	
+case 2:
+    ClearShirts();
+	Pattern.alpha = 1;
+	
+case 3:
+	ClearShirts();
+	Suit.alpha = 1;
+	
+case 4:
+	ClearShirts();
+	Rainbow.alpha = 1;
+	
+case 5:
+	ClearShirts();
+	Jacket.alpha = 1;
+	}
+	
+	// Select a leg
+	
+	switch(LegsPick)
+	{
+	case 1:
+	ClearLegs();
+	Red.alpha = 1;
+	
+case 2:
+ClearLegs();
+	Jeans.alpha = 1;
+	
+case 3:
+	ClearLegs();
+	Slacks.alpha = 1;
+	}
+	
+	// Select Clothe
+	
+	if (Enemyturn == 3)
+	{
+	
+	if (FlxG.keys.justPressed.UP)
+	{
+	ClothePick -= 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.DOWN)
+	{
+	ClothePick += 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.LEFT && ClothePick == 1)
+	{
+	FacePick -= 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.RIGHT && ClothePick == 1)
+	{
+	FacePick += 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.LEFT && ClothePick == 2)
+	{
+	ShirtPick -= 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.RIGHT && ClothePick == 2)
+	{
+	ShirtPick += 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.LEFT && ClothePick == 3)
+	{
+	LegsPick -= 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.RIGHT && ClothePick == 3)
+	{
+	LegsPick += 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/scrollMenu' + TitleState.soundExt));	
+	}
+	
+	if (FlxG.keys.justPressed.SPACE)
+	{
+	if (FaceAnwerNum != FacePick)
+	{
+		FlxG.sound.play(FNFAssets.getSound('assets/sounds/deletefile' + TitleState.soundExt));
+		KillBF = 1;
+	}
+	
+	if (ShirtAnswerNum != ShirtPick)
+	{
+		FlxG.sound.play(FNFAssets.getSound('assets/sounds/deletefile' + TitleState.soundExt));
+		KillBF = 1;
+	}
+	
+	if (PantsAsnwerNum != LegsPick)
+	{
+		FlxG.sound.play(FNFAssets.getSound('assets/sounds/deletefile' + TitleState.soundExt));
+		KillBF = 1;
+	}
+	
+	if (FaceAnwerNum == FacePick && ShirtAnswerNum == ShirtPick && PantsAsnwerNum == LegsPick)
+	{
+		FlxG.sound.play(FNFAssets.getSound('assets/sounds/selectfile' + TitleState.soundExt));
+		FlxG.sound.play(FNFAssets.getSound('assets/sounds/heal' + TitleState.soundExt));
+		HealBF = 1;
+		facePlaceholder.alpha = 0;
+		facePlaceholderA.alpha = 0;
+		arrowright.alpha = 0;
+		arrowthing.alpha = 0;
+		AllowClothe = 0;
+		ClearFaces();
+		ClearLegs();
+		ClearShirts();
+		ClearFacesA();
+		ClearLegsA();
+		ClearShirtsA();
+		boyfriend.playAnim('singLEFT');
+	}
+	}
+	}
+	}
+}
+
+// The clear gang B)
+
+function ClearFaces()
+{
+Chill.alpha = 0;
+Drool.alpha = 0;
+Err.alpha = 0;
+Happy.alpha = 0;
+HoldIt.alpha = 0;
+Silly.alpha = 0;
+Yawn.alpha = 0;
+Skeptic.alpha = 0;
+}
+
+function ClearLegs()
+{
+Red.alpha = 0;
+Slacks.alpha = 0;
+Jeans.alpha = 0;
+}
+
+function ClearShirts()
+{
+Cottage.alpha = 0;
+Jacket.alpha = 0;
+Suit.alpha = 0;
+Rainbow.alpha = 0;
+Pattern.alpha = 0;
+}
+
+// Clear answers gang B)
+
+function ClearFacesA()
+{
+ChillA.alpha = 0;
+DroolA.alpha = 0;
+ErrA.alpha = 0;
+HappyA.alpha = 0;
+HoldItA.alpha = 0;
+SillyA.alpha = 0;
+YawnA.alpha = 0;
+SkepticA.alpha = 0;
+}
+
+function ClearLegsA()
+{
+RedA.alpha = 0;
+SlacksA.alpha = 0;
+JeansA.alpha = 0;
+}
+
+function ClearShirtsA()
+{
+CottageA.alpha = 0;
+JacketA.alpha = 0;
+SuitA.alpha = 0;
+RainbowA.alpha = 0;
+PatternA.alpha = 0;
+}
+
+function StartFashion()
+{
+ClearShirts();
+ClearFaces();
+ClearLegs();
+LegsPick = 1;
+ClothePick = 2;
+ShirtPick = 1;
+LegsPick = 1;
+facePlaceholder.alpha = 1;
+facePlaceholderA.alpha = 1;
+arrowthing.alpha = 1;
+arrowright.alpha = 1;
+AllowClothe = 1;
+RandomFaces();
+RandomPants();
+RandomShirts();
+}
+
+// Answers Randomizer
+
+function RandomShirts()
+{
+switch Std.random(4)
+	{
+	case 0:
+		ShirtAnswerNum = 1;
+		CottageA.alpha = 1;
+		
+	case 1:
+		ShirtAnswerNum = 3;
+		SuitA.alpha = 1;
+		
+	case 2:
+	    ShirtAnswerNum = 4;
+		RainbowA.alpha = 1;
+		
+	case 3:
+		ShirtAnswerNum = 2;
+		PatternA.alpha = 1;
+		
+	case 4:
+		ShirtAnswerNum = 5;
+		JacketA.alpha = 1;
+	}
+}
+
+function RandomFaces()
+{
+	switch Std.random(7)
+	{	
+	case 0:
+		FaceAnwerNum = 1;
+		ChillA.alpha = 1;
+		
+	case 1:
+		FaceAnwerNum = 2;
+		DroolA.alpha = 1;
+		
+	case 2:
+	    FaceAnwerNum = 3;
+		ErrA.alpha = 1;
+		
+	case 3:
+		FaceAnwerNum = 4;
+		HappyA.alpha = 1;
+		
+	case 4:
+		FaceAnwerNum = 5;
+		HoldItA.alpha = 1;
+		
+	case 5:
+		FaceAnwerNum = 6;
+		SillyA.alpha = 1;
+		
+	case 6:
+		FaceAnwerNum = 7;
+		SkepticA.alpha = 1;
+		
+	case 7:
+		FaceAnwerNum = 8;
+		YawnA.alpha = 1;
+	}
+}
+
+function RandomPants()
+{
+switch Std.random(2)
+{
+case 0:
+PantsAsnwerNum = 1;
+   RedA.alpha = 1;
+   
+case 1:
+	PantsAsnwerNum = 3;
+	SlacksA.alpha = 1;
+	
+case 2:
+	PantsAsnwerNum = 2;
+	JeansA.alpha = 1;
+}
+}
+
+function stepHit(step)
+{
+	MANUAL.alpha -= 0.05;
+	
+	if (Enemyturn == 1)
+	{
+		currentPlayState.iconP1.alpha -= 0.1;
+		currentPlayState.iconP2.alpha -= 0.1;
+		currentPlayState.healthBar.alpha -= 0.1;
+		currentPlayState.healthBarBG.alpha -= 0.1;
+	}
+	
+	switch(curStep)
+	{
+	case 763:
+	removeSprite(trail, BEHIND_ALL);
+	addSprite(smilerthing, BEHIND_ALL);
+	Enemyturn = 2;
+	MANUAL.alpha = 1;
+	switchCharacter('Corruptedstitchface', 'dad');
+	
+case 1019:
+	currentPlayState.health += 0.4;
+	Enemyturn = 3;
+	MANUAL.alpha = 1;
+	switchCharacter('Corruptedroleplayer', 'dad');
+	StartFashion();
+	
+case 1146:
+	Enemyturn = 4;
+	MANUAL.alpha = 1;
+	switchCharacter('Corruptedsoldier', 'dad');
+	
+case 1274:
+	currentPlayState.health += 0.4;
+	Enemyturn = 3;
+	MANUAL.alpha = 1;
+	switchCharacter('Corruptedroleplayer', 'dad');
+	StartFashion();
+	addSprite(soldiersold, BEHIND_ALL);
+	Allowit = 1;
+	
+case 1338:
+	Allowit = 0;
+	
+case 1403:
+	removeSprite(soldiersold, BEHIND_ALL);
+	MANUAL.alpha = 1;
+	Enemyturn = 4;
+	switchCharacter('Corruptedtryhard', 'dad');
+	
+case 1416 , 1411 , 1415 , 1424 , 1425 , 2426 , 1433 , 1437 , 1439 , 1441 , 1443 , 1445 , 1447:
+	if (Headshot == 1 && !FlxG.keys.justPressed.C || !FlxG.keys.justPressed.V || !FlxG.keys.justPressed.SPACE)
+	{
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	currentPlayState.health -= 0.001;
+	}
+	dad.playAnim('shoot');
+	
+	case 1449:
+		shootall = 1;
+		
+	case 1531:
+		shootall = 0;
+		switchCharacter('Corruptedrager', 'dad');
+		Enemyturn = 5;
+		MANUAL.alpha = 1;
+	
+	case 1660:
+		removeSprite(smilerthing, BEHIND_ALL);
+		switchCharacter('smilermad', 'dad');
+		Enemyturn = 1;
+		MANUAL.alpha = 1;
+		
+	case 2172:
+		MANUAL.alpha = 1;
+		switchCharacter('Corruptedbf', 'boyfriend');
+		currentPlayState.healthBar.createFilledBar(0xFFFFFFFF, 0xFFFFFFFF);
+		camHUD.alpha = 0.5;
+	}
+	
+	if (Enemyturn == 4)
+	{
+	if (camHUD.y != 0)
+	{
+	camHUD.y += 5;	
+	}
+	Headshot = 1;	
+	}
+	
+	if (handmove == 0)
+	{
+	hand.y -= 25;
+	}
+	
+	if (handmove == 1)
+	{
+	hand.y += 25;
+	}
+	
+	if (hand.y > 300)
+	{
+	handmove = 0;
+	}
+	
+	if (hand.y < -300)
+	{
+	handmove = 1;	
+	}
+}
+
+function Cheating()
+{
+switch Std.random(5)
+{
+case 0:
+Cheatcode = 1;
+
+case 1:
+Cheatcode = 2;
+
+case 2:
+Cheatcode = 3;
+
+case 3:
+Cheatcode = 4;
+
+case 4:
+Cheatcode = 3;
+}
+}
+
+function playerTwoTurn()
+{
+    if (currentPlayState.health > 1.5 && Enemyturn == 2)
+	{
+	camHUD.shake(0.02, 0.04);
+	}
+	
+	if (purePain == 1 && Enemyturn == 2)
+	{
+	currentPlayState.health -= 0.05;	
+	}
+	
+	if (Enemyturn == 3)
+	{
+	if (KillBF == 1)
+	{
+	currentPlayState.health = 0;	
+	}
+	
+	if (AllowClothe == 1)
+	{
+	currentPlayState.health -= 0.0001;	
+	}
+	
+	if (HealBF == 1)
+	{
+	currentPlayState.health += 0.4;
+	HealBF = 0;
+	}	
+	}
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+	if (Enemyturn == 5)
+	{
+	if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.005;	
+}
+
+if (currentPlayState.healthBar.angle < 90 && Cheatcode == 1)
+{
+currentPlayState.healthBar.angle += 1;
+currentPlayState.healthBarBG.angle += 1;
+currentPlayState.iconP1.angle += 1;
+currentPlayState.iconP2.angle += 1;
+}
+
+if (Cheatcode == 2)
+{
+FlxG.camera.shake(0.01, 0.08);
+}
+
+if (Cheatcode == 3)
+{
+camHUD.angle += 0.2;
+}	
+	}
+	
+	if (currentPlayState.health > 0.2 && Enemyturn != 5)
+{
+currentPlayState.health -= 0.1;	
+}
+
+if (shootall == 1)
+{
+if (Headshot == 1 && !FlxG.keys.justPressed.C || !FlxG.keys.justPressed.V || !FlxG.keys.justPressed.SPACE)
+	{
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	currentPlayState.health -= 0.001;
+	}
+}
+
+if (Allowit == 1)
+{
+EnemyArrow += 1;
+if (EnemyArrow > 4)
+{
+EnemyArrow = 1;	
+}
+if (EnemyArrow == 1)
+{
+soldiersold.playAnim('singLEFT');	
+}
+if (EnemyArrow == 2)
+{
+soldiersold.playAnim('singDOWN');	
+}
+if (EnemyArrow == 3)
+{
+soldiersold.playAnim('singUP');	
+}
+if (EnemyArrow == 4)
+{
+soldiersold.playAnim('singRIGHT');	
+}
+}
+}
+
+function playerOneTurn()
+{
+	if (currentPlayState.health > 1.5 && Enemyturn == 2)
+	{
+	camHUD.shake(0.02, 0.04);
+	}
+	
+	if (purePain == 1 && Enemyturn == 2)
+	{
+	currentPlayState.health -= 0.05;	
+	}
+	
+	if (Enemyturn == 3)
+	{
+	if (KillBF == 1)
+	{
+	currentPlayState.health = 0;	
+	}
+	
+	if (AllowClothe == 1)
+	{
+	currentPlayState.health -= 0.0001;	
+	}
+	
+	if (HealBF == 1)
+	{
+	currentPlayState.health += 0.4;
+	HealBF = 0;
+	}	
+	}
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+	if (Enemyturn == 1)
+	{
+		currentPlayState.iconP1.alpha = 1;
+		currentPlayState.iconP2.alpha = 1;
+		currentPlayState.healthBar.alpha = 1;
+		currentPlayState.healthBarBG.alpha = 1;
+	}
+	
+	if (Enemyturn == 5)
+	{
+	if (currentPlayState.healthBar.angle > 0)
+{
+currentPlayState.healthBar.angle -= 1;
+currentPlayState.healthBarBG.angle -= 1;
+currentPlayState.iconP1.angle -= 1;
+currentPlayState.iconP2.angle -= 1;
+}
+
+if (camHUD.angle > 0)
+{
+camHUD.angle -= 0.2;
+}	
+	}
+}

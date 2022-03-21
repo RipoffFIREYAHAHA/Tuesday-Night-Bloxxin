@@ -1,0 +1,118 @@
+var RandomHealth = 0;
+var trail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
+
+MANUAL = new FlxSprite().loadGraphic('assets/images/UpperScreen/Smile/ban.png');
+	MANUAL.antialiasing = true;
+	MANUAL.scrollFactor.set();
+	MANUAL.screenCenter();
+	MANUAL.cameras = [camHUD];
+	MANUAL.alpha = 0;
+
+function start(song) {
+	dad.y -= 100;
+	gf.x += 400;
+currentPlayState.healthBar.createFilledBar(0xFFFFFFFF, 0xFF31B0D1);
+add(MANUAL, BEHIND_NONE);
+    addSprite(trail, BEHIND_ALL );
+}
+
+
+function beatHit(beat)
+{
+gf.playAnim('scared');
+if (RandomHealth == 1)
+	{
+	dad.playAnim('laugh');
+	}
+}
+
+function update(elapsed)
+{
+	gf.playAnim('scared');
+	if (RandomHealth == 1)
+	{
+	dad.playAnim('laugh');
+	}
+}
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 114 , 368 , 880:
+	RandomHealth = 1;
+	
+case 128 , 384:
+	RandomHealth = 0;
+	
+case 1008:
+	removeSprite(trail, BEHIND_ALL );
+	remove(dad);
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Smiler/Ban' + TitleState.soundExt));
+	MANUAL.alpha = 1;
+	}
+	
+	MANUAL.alpha -= 0.05;
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2 && RandomHealth != 1)
+{
+currentPlayState.health -= 0.1;	
+}
+
+if (RandomHealth == 1)
+{
+boyfriend.playAnim('scared');
+dad.playAnim('laugh');
+FlxG.camera.shake(0.01, 0.08);
+switch Std.random(5)
+{
+case 0:
+currentPlayState.health = 1.2;
+
+case 1:
+currentPlayState.health = 0.5;
+
+case 2:
+currentPlayState.health = 1;
+
+case 3:
+currentPlayState.health = 0.8;
+
+case 4:
+currentPlayState.health = 0.2;
+
+case 5:
+currentPlayState.health = 1.5;
+}
+
+currentPlayState.iconP1.angle = Std.random(360);
+currentPlayState.iconP2.angle = Std.random(360);
+currentPlayState.healthBar.angle = Std.random(360);
+currentPlayState.healthBarBG.angle = Std.random(360);
+}
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

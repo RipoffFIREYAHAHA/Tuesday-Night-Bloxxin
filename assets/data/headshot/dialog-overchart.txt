@@ -1,0 +1,5 @@
+[178[ [179[ [223[ [216[ |Tryhard| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      hey
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      wut
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      your bad
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      ...

@@ -1,0 +1,18 @@
+[178[ [179[ [223[ [216[ |Smilerlol| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:smiler: !default! [Pixel Arial 11 Bold[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      OMG! ARE YOU BOYFRIEND FROM FNF??!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep bop ske de boop.
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      ####### ######### ######
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      TALK ##########
+:smiler: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      ###########################
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep boop?
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      T
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      A
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      L
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      K
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      N
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      O
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      R
+:smiler: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      #
+:smiler: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      #
+:smiler: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#509B39! ?#1C3513? .. ~~      SCREW IT. YOU, ME, RAP BATTLE NOW!
+:bf: !weird! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      ?

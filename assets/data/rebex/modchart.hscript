@@ -1,0 +1,72 @@
+
+
+function start(song) {
+currentPlayState.healthBar.createFilledBar(0xFFD3D3D3, 0xFF31B0D1);
+dad.y += 250;
+dad.x -= 200;
+gf.x += 550;
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 526:
+	switchCharacter('monkeshadow', 'dad');
+	
+case 542:
+	switchCharacter('monke', 'dad');
+	
+case 592 , 600 , 656 , 664 , 720 , 728 , 784 , 792:
+	camHUD.angle = 25;
+	
+case 596 , 660 , 724 , 788:
+	camHUD.angle = -25;
+	
+case 604 , 668 , 832 , 796 , 732:
+	camHUD.angle = 0;
+	}
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.1;	
+}
+
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+
+}

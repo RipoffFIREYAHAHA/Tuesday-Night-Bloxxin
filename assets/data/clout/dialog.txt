@@ -1,0 +1,15 @@
+[178[ [179[ [223[ [216[ |Stitchface| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:stitchface: !dotdot! [Funkin[ ]30] *100* =1= +0+ -0- <1< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      ...
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep.
+:stitchface: !nani! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#050505! ?#353535? .. ~~      ?!
+:stitchface: !lol! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      Lol, look at this midget.
+:bf: !suprised! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      !
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep bop skede boop!..
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      TALK ######## MIDGET!
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      MIC UP!
+:bf: !laugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      BEEEEEP!!
+:bf: !laugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep boop beep bop,
+:bf: !vomit! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      ####
+:stitchface: !illshow! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      ILL SHOW U WHOS DIGUSTING!
+:stitchface: !gimme! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      GIVE ME THE MICROPHONE U RED GIRL.
+:gf: !ugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Rude.

@@ -1,0 +1,34 @@
+[178[ [179[ [223[ [216[ |Tryhard| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Yo Sup!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Bop!
+:tryhard: !Ugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Wait, your skin looks familiar...
+:tryhard: !Hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Boyfriend from FNF??
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      I got that skin from a code once!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep bop boop skedepeeb
+:tryhard: !Wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Heh?!
+:tryhard: !Ugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      I know bf from fnf talks like that but..
+:tryhard: !Eyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Your in roblox, talk ######## man!
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Do you ever rap before?
+:tryhard: !Hehehe! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Rap? Huh, of course yes! Back in that game called 'Rap Battles', I always won in every round
+:tryhard: !Hehehe! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Every single round!
+:tryhard: !Hehe! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Cant you believe it?
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Sure, sure...
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Bop beep
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      If you win in every battle in that game, how about having to rap here
+:tryhard: !Hehehe! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Ooh, another rap battle! Another glory for me.
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Hey guys! ever heard of friday night funkin!
+:tryhard: !Gurl! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Oh, you mean that trendy game?
+:tryhard: !GasHuh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Yeah, what about it?
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Imagine that, but in Arsenal!
+:tryhard: !GasInterest! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Rap battle in Arsenal huh, Interesting...
+:tryhard: !GasYeah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Alright, lets see what you got.
+:tryhard: !Yeah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      I would win this round, no hesitation!
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Riiight...
+:tryhard: !Uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      You sound sarcastic
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      No Im not,
+:gf: !wantmicro! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Take this microphone if you wanna rap
+:tryhard: !Yeah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      I dont need a microphone to rap,
+:tryhard: !Yeah! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      I can sing louder without the microphone lol
+:gf: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Alright, suit yourself
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      Beep skedebloop!
+:tryhard: !ShootGoesBrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#0F71A6! ?#041F2D? .. ~~      Lets go blue haired robot man!

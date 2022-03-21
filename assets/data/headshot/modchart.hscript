@@ -1,0 +1,107 @@
+var Headshot = 1;
+
+spacehuh = new MetroSprite(0, 0, true);
+    spacehuh.frames = FlxAtlasFrames.fromSparrow('assets/images/UpperScreen/Tryhard/Space.png', 'assets/images/UpperScreen/Tryhard/Space.xml');
+    spacehuh.animation.addByPrefix("press", "space", 24, false);
+    spacehuh.antialiasing = true;
+    spacehuh.cameras = [camHUD];
+	spacehuh.alpha = 0;
+    addSprite(spacehuh, BEHIND_NONE);
+
+function start(song) {
+currentPlayState.healthBar.createFilledBar(0xFF0F71A6, 0xFF31B0D1);
+}
+
+
+function beatHit(beat)
+{
+if (Headshot == 0)
+{
+	boyfriend.playAnim('dodge');
+}
+}
+
+function update(elapsed)
+{
+	if(FlxG.keys.justPressed.SPACE)
+{
+	camHUD.y = -20;
+	boyfriend.playAnim('dodge');
+	Headshot = 0;
+}
+}
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 236 , 406 , 470 , 501 , 684:
+	if(currentPlayState.useTutorials)
+	FlxTween.tween(spacehuh, {alpha:1}, 0.8);
+	
+    case 256 , 416 , 480 , 512 , 704:
+	if(currentPlayState.useTutorials)
+	FlxTween.tween(spacehuh, {alpha:0}, 0.4);
+	
+    case 240 , 248 , 412 , 476 , 508 , 688 , 692 , 696:
+	if (currentPlayState.useTutorials)
+	spacehuh.animation.play("press");
+	
+	if (Headshot == 1 && !FlxG.keys.justPressed.SPACE)
+	{
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	currentPlayState.health = 0;
+	}
+	
+	case 3 , 6 , 8 , 11 , 14 , 16 , 19 , 22 , 24 , 28 , 64 , 67 , 70 , 72 , 75 , 78 , 80 , 83 , 86 , 91 , 94 , 128 , 131 , 134 , 136 , 139 , 192 , 195 , 198 , 200 , 203 , 206 , 266 , 296 , 328 , 360 , 528 , 531 , 534 , 539 , 579 , 582 , 595 , 601 , 640 , 690 , 694:
+	if (currentPlayState.storyDifficultyText == "OVERCHART")
+	{
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Shoot' + TitleState.soundExt));
+	if (Headshot == 1 && !FlxG.keys.justPressed.SPACE )
+	{
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	currentPlayState.health = 0;
+	}
+	}
+	
+	case 241 , 249 , 413 , 477 , 509 , 689 , 693 , 697:
+	dad.playAnim('shoot');
+	
+	}
+	
+	if (camHUD.y != 0)
+	{
+	camHUD.y += 5;	
+	}
+	Headshot = 1;
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.1;	
+}
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

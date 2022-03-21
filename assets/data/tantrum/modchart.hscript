@@ -1,0 +1,184 @@
+var Cheatcode = 0;
+var handmove = 0;
+var allowthingy = 1;
+
+MANUAL = new FlxSprite().loadGraphic('assets/images/UpperScreen/Rager/ragequit.png');
+	MANUAL.antialiasing = true;
+	MANUAL.scrollFactor.set();
+	MANUAL.screenCenter();
+	MANUAL.cameras = [camHUD];
+	MANUAL.alpha = 0;
+
+hand = new FlxSprite().loadGraphic('assets/images/UpperScreen/Rager/Hand' + Std.random(18) + '.png');
+	hand.antialiasing = true;
+	hand.scrollFactor.set();
+	hand.screenCenter();
+	hand.cameras = [camHUD];
+	hand.x = 1500;
+	hand.angle = -90;
+
+function start(song) {
+	gf.x += 200;
+currentPlayState.healthBar.createFilledBar(0xFFFFE500, 0xFF31B0D1);
+addSprite(hand, BEHIND_NONE);
+addSprite(MANUAL, BEHIND_NONE);
+}
+
+
+function beatHit(beat)
+{
+Cheating();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 588:
+	remove(dad);
+	MANUAL.alpha = 1;
+	currentPlayState.iconP2.alpha = 0;
+	currentPlayState.healthBar.createFilledBar(0xFF000000, 0xFF00FF00);
+	allowthingy = 0;
+	camHUD.angle = 0;
+	FlxG.camera.angle = 0;
+	hand.alpha = 0;
+	currentPlayState.healthBar.angle = 0;
+currentPlayState.healthBarBG.angle = 0;
+currentPlayState.iconP1.angle = 0;
+currentPlayState.iconP2.angle = 0;
+Cheatcode = 0;
+gf.playAnim('cheer');
+boyfriend.playAnim('hey');
+	}
+	
+	if (currentPlayState.health > 0.2)
+	{
+	currentPlayState.health -= currentPlayState.healthBar.angle / 10000;
+	}
+	if (Cheatcode == 4 && hand.x > 700)
+	{
+	hand.x -= 20;	
+	}
+	
+	if (handmove == 0)
+	{
+	hand.y -= 25;
+	}
+	
+	if (handmove == 1)
+	{
+	hand.y += 25;
+	}
+	
+	if (hand.y > 300)
+	{
+	handmove = 0;
+	}
+	
+	if (hand.y < -300)
+	{
+	handmove = 1;	
+	}
+	
+	MANUAL.alpha -= 0.05;
+}
+
+function Cheating()
+{
+if (allowthingy == 1)
+{
+switch Std.random(5)
+{
+case 0:
+Cheatcode = 1;
+
+case 1:
+if (currentPlayState.storyDifficultyText == "OVERCHART")
+{
+Cheatcode = 2;
+}
+
+case 2:
+Cheatcode = 3;
+
+case 3:
+Cheatcode = 4;
+
+case 4:
+if (currentPlayState.storyDifficultyText == "OVERCHART")
+{
+camHUD.angle += 180;
+FlxG.camera.angle += 180;
+}
+}
+}
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.005;	
+}
+
+if (currentPlayState.healthBar.angle < 90 && Cheatcode == 1)
+{
+currentPlayState.healthBar.angle += 1;
+currentPlayState.healthBarBG.angle += 1;
+currentPlayState.iconP1.angle += 1;
+currentPlayState.iconP2.angle += 1;
+}
+
+if (Cheatcode == 2)
+{
+FlxG.camera.shake(0.01, 0.08);
+}
+
+if (Cheatcode == 3)
+{
+camHUD.angle += 0.2;
+}
+}
+
+function playerOneTurn()
+{
+if (Cheatcode == 2)
+{
+camHUD.shake(0.1 , 0.5);
+}
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+	if (currentPlayState.healthBar.angle > 0)
+{
+currentPlayState.healthBar.angle -= 1;
+currentPlayState.healthBarBG.angle -= 1;
+currentPlayState.iconP1.angle -= 1;
+currentPlayState.iconP2.angle -= 1;
+}
+
+if (camHUD.angle > 0)
+{
+camHUD.angle -= 0.2;
+}
+}

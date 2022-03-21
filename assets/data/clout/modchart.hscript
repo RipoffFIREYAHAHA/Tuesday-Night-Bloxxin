@@ -1,0 +1,90 @@
+var purePain = 0;
+
+MANUAL = new FlxSprite().loadGraphic('assets/images/UpperScreen/Stitch/manual.png');
+	MANUAL.antialiasing = true;
+	MANUAL.scrollFactor.set();
+	MANUAL.screenCenter();
+	MANUAL.cameras = [camHUD];
+
+function start(song) {
+currentPlayState.healthBar.createFilledBar(0xFF111111, 0xFF31B0D1);
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+	if (currentPlayState.storyDifficultyText == "OVERCHART")
+	{
+	if (currentPlayState.health > 0.4)
+	{
+	purePain = 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/ANGRY' + TitleState.soundExt));
+	camHUD.shake(0.02, 0.04);
+	add(MANUAL, BEHIND_NONE);
+	}
+	} else if (currentPlayState.health > 1)
+	{
+	purePain = 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/ANGRY' + TitleState.soundExt));
+	camHUD.shake(0.02, 0.04);
+	add(MANUAL, BEHIND_NONE);
+	}
+	
+	if (currentPlayState.health < 1)
+	{
+	purePain = 0;
+	remove(MANUAL, BEHIND_NONE);
+	}
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.05;
+}
+
+if (purePain == 1)
+{
+currentPlayState.health -= 0.05;	
+}
+}
+
+function playerOneTurn()
+{
+	if (currentPlayState.health > 1.5)
+	{
+	camHUD.shake(0.02, 0.04);
+	}
+	
+	if (purePain == 1)
+	{
+	currentPlayState.health -= 0.05;	
+	}
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

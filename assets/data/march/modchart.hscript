@@ -1,0 +1,48 @@
+
+function start(song) {
+currentPlayState.healthBar.createFilledBar(0xFF545A2C, 0xFF31B0D1);
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.02;	
+}
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

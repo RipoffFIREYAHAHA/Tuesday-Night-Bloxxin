@@ -1,0 +1,12 @@
+[178[ [179[ [223[ [216[ |Roleplayer| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:roleplayer: !yes! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Wins*
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      You cant do that, bf wins this round.
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Dabs*
+:roleplayer: !but! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Loses?*
+:roleplayer: !owo! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      The last song was pretty good, wonder what's the next song!
+:roleplayer: !yes! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Plays Second Song*
+:gf: !well! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Alright, half_demon half angel alpha wolf non_binary poor rich half_bunny half_werewolf
+:roleplayer: !but! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Its half_angel, you forgot the underscore.
+:gf: !well! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      Alright, half_demon half_angel alpha wolf non_binary poor rich half_bunny half_werewolf
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~      *Sings*
+:roleplayer: !yes! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~   *Sings too*   

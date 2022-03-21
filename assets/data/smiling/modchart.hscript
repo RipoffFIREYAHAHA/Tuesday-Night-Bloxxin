@@ -1,0 +1,76 @@
+
+
+function start(song) {
+	gf.x += 200;
+currentPlayState.healthBar.createFilledBar(0xFFFFFFFF, 0xFF31B0D1);
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+	
+	currentPlayState.iconP1.alpha -= 0.1;
+		currentPlayState.iconP2.alpha -= 0.1;
+		currentPlayState.healthBar.alpha -= 0.1;
+		currentPlayState.healthBarBG.alpha -= 0.1;
+	
+	switch(curStep)
+	{	
+	case 248:
+	currentPlayState.noteSpeed = 0.6;
+	
+case 256:
+	currentPlayState.noteSpeed = 0.7;
+	
+case 384:
+	currentPlayState.noteSpeed = 2.0;
+
+case 451:
+	currentPlayState.noteSpeed = 0.5;
+	}
+}
+
+function playerTwoTurn()
+{
+    boyfriend.getMidpoint().x = 520;
+	boyfriend.getMidpoint().y = 450;
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.1;	
+}
+}
+
+function playerOneTurn()
+{
+	FlxG.camera.targetOffset(520, 450);
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+	currentPlayState.iconP1.alpha = 1;
+		currentPlayState.iconP2.alpha = 1;
+		currentPlayState.healthBar.alpha = 1;
+		currentPlayState.healthBarBG.alpha = 1;
+}

@@ -1,0 +1,20 @@
+[178[ [179[ [223[ [216[ |Rager| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      look man, this is a big misunderstanding..
+:gf: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      I and bf is not what you thought
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      No excuses!!!
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      I SAW YOU TO BULLYING ME FOR NO REASON
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      REPORT!! REPORT!!!
+:gf: !supersaiyan! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      WAIT WAIT!!
+:gf: !supersaiyan! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic_loud# ^pixelText^ !#A5004D! ?#330017? .. ~~      LET ME EXPLAIN FIRST OF WHAT HAPPENED
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~     boop bop boop beep skedeboop beep
+:gf: !hey! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      sorry bf, he does not understand your language
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      let me explain...
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      so we give pico and sunday to borrow our computers
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      so this means, we are not actually mean.
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      its just their fault
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      sure sure
+:rager: !doublegrr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      idc
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#31B0D1! ?#12404C? .. ~~     beep boop
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      how about a rap battle
+:rager: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#A0A00E! ?#3D3D05? .. ~~      . . .
+:gf: !heyy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#A5004D! ?#330017? .. ~~      <:D

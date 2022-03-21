@@ -1,0 +1,25 @@
+[178[ [179[ [223[ [216[ |Soldier| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      HEY! BF, WHY AREN'T YOU FOLLOWING MY ORDER
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      shut up
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      what did you say to me???!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      I say
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      shut the #### up
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      you little_
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      shh!
+:soldier: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      you!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      shush!
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      quite you #### ##
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      ################# ############### # # ##############
+:soldier: !godwhy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      great... just great
+:soldier: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      a troll.....
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      shut up ####
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      its a game
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      your roleplaying as a soldier in a game
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      get a life bud
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      touch grass
+:bf: !default! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      yeah go touch grass
+:soldier: !godwhy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      . . .
+:soldier: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      Im in a simulation
+:soldier: !bruh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#385638! ?#192619? .. ~~      i cant escape from this world #######
+:gf: !yeahsure! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      k
+:soldier: !godwhy! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#385638! ?#192619? .. ~~      oh my god why...

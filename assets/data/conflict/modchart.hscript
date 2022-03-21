@@ -1,0 +1,249 @@
+var Headshot = 1;
+var healbf = 0;
+var bringuptheguns = 0;
+var butgrefresh = 0;
+var thenthebullets = 0;
+var ttbrefresher = 0;
+var allowshoot = 0;
+var attackmultiplier = 35;
+var bulletbeat = 0;
+
+MANUAL = new FlxSprite().loadGraphic('assets/images/UpperScreen/Tryhard/ban.png');
+	MANUAL.antialiasing = true;
+	MANUAL.scrollFactor.set();
+	MANUAL.screenCenter();
+	MANUAL.cameras = [camHUD];
+	MANUAL.alpha = 0;
+	
+hitting = new FlxSprite().loadGraphic('assets/images/UpperScreen/Tryhard/hit.png');
+	hitting.antialiasing = true;
+	hitting.scrollFactor.set();
+	hitting.screenCenter();
+	hitting.cameras = [camHUD];
+	hitting.alpha = 0;
+
+bulletthing = new FlxSprite().loadGraphic('assets/images/UpperScreen/Tryhard/Bullet.png');
+	bulletthing.antialiasing = true;
+	bulletthing.scrollFactor.set();
+	bulletthing.screenCenter();
+	bulletthing.cameras = [camHUD];
+	bulletthing.y += 290;
+	bulletthing.x = 600;
+	bulletthing.alpha = 0;
+	
+bulletthingred = new FlxSprite().loadGraphic('assets/images/UpperScreen/Tryhard/Bulletbeat.png');
+	bulletthingred.antialiasing = true;
+	bulletthingred.scrollFactor.set();
+	bulletthingred.screenCenter();
+	bulletthingred.cameras = [camHUD];
+	bulletthingred.y += 290;
+	bulletthingred.x = 600;
+	bulletthingred.alpha = 0;
+	
+bulletbar = new FlxSprite().loadGraphic('assets/images/UpperScreen/Tryhard/bulletBar.png');
+	bulletbar.antialiasing = true;
+	bulletbar.scrollFactor.set();
+	bulletbar.screenCenter();
+	bulletbar.cameras = [camHUD];
+	bulletbar.y += 295;
+	bulletbar.alpha = 0;
+
+function start(song) {
+currentPlayState.healthBar.createFilledBar(0xFF545A2C, 0xFF31B0D1);
+addSprite(bulletbar, BEHIND_NONE);
+addSprite(bulletthing, BEHIND_NONE);
+addSprite(bulletthingred, BEHIND_NONE);
+add(MANUAL, BEHIND_NONE);
+add(hitting, BEHIND_NONE);
+}
+
+
+function beatHit(beat)
+{
+	if (allowshoot == 1)
+	{
+	if (FlxG.keys.justPressed.SPACE)
+	{
+	gf.playAnim('cheer');
+	hitting.alpha = 1;
+	boyfriend.playAnim('pre-attack');
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	dad.playAnim('hit');
+	healbf = 1;
+	bulletthing.x -= attackmultiplier;
+	}
+	}
+	
+	if (allowshoot == 1)
+	{
+	if (bulletthing.alpha == 0)
+	{
+		bulletthing.alpha = 1;
+		bulletthingred.alpha = 0;
+	}	
+	}
+	
+	if (allowshoot == 1)
+	{
+	if (bulletthingred.alpha == 0)
+	{
+		bulletthing.alpha = 0;
+		bulletthingred.alpha = 1;
+	}	
+	}
+}
+
+// UPDATE //
+
+function update(elapsed)
+{
+	bulletthingred.x = bulletthing.x;
+	bulletthingred.y = bulletthing.y;
+	
+	if (allowshoot == 1)
+	{
+	if (FlxG.keys.justPressed.SPACE)
+	{
+	boyfriend.playAnim('pre-attack');
+	switch Std.random(10)
+	{
+	case 5:
+	hitting.alpha = 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+	dad.playAnim('hit');
+	healbf = 1;
+	bulletthing.x -= attackmultiplier;
+	
+default:
+	gf.playAnim('sad');
+	dad.playAnim('dodge');
+	MANUAL.alpha = 1;
+	FlxG.sound.play(FNFAssets.getSound('assets/sounds/deletefile' + TitleState.soundExt));
+	}
+	}
+	}
+	
+	if (bulletthing.x > 900)
+	{
+	bulletthing.x = 900;
+	}
+	
+	if (bulletthing.x < 300)
+	{
+	bulletthing.x = 300;	
+	}
+}
+
+// STEP HIT //
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 128:
+	bringuptheguns = 1;
+	
+case 240:
+	thenthebullets = 1;
+	
+case 256:
+	allowshoot = 1;
+	}
+	
+	if (bringuptheguns == 1 && butgrefresh < 6)
+	{
+	butgrefresh += 1;
+	currentPlayState.iconP1.y -= 10;
+currentPlayState.iconP2.y -= 10;
+currentPlayState.healthBar.y -= 10;
+currentPlayState.healthBarBG.y -= 10;
+	}
+	
+	if (thenthebullets == 1 && bulletbar.alpha != 1 && bulletthing.alpha != 1)
+	{
+		bulletbar.alpha += 0.1;
+		bulletthing.alpha += 0.1;
+	}
+	MANUAL.alpha -= 0.05;
+	hitting.alpha -= 0.05;
+}
+
+function playerTwoTurn()
+{
+	BulletShootsHealth();
+	
+    if (healbf == 1)
+	{
+	currentPlayState.health += 0.5;
+	healbf = 0;
+	}
+	
+	if (allowshoot == 1)
+	{
+	
+	switch Std.random(100)
+{
+case 25:
+boyfriend.playAnim('yellow');
+dad.playAnim('shoot');
+gf.playAnim('scared');
+FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+bulletthing.x += attackmultiplier;
+}
+	}
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+if (currentPlayState.health > 0.2)
+{
+currentPlayState.health -= 0.05;
+}
+}
+
+function playerOneTurn()
+{
+	BulletShootsHealth();
+	
+	if (healbf == 1)
+	{
+	currentPlayState.health += 0.2;
+	healbf = 0;
+	}
+	
+	if (allowshoot == 1)
+	{
+		
+	switch Std.random(100)
+{
+case 25:
+boyfriend.playAnim('yellow');
+dad.playAnim('shoot');
+gf.playAnim('scared');
+FlxG.sound.play(FNFAssets.getSound('assets/sounds/Tryhard/Headshot' + TitleState.soundExt));
+bulletthing.x += attackmultiplier;
+}
+	}
+}
+
+function BulletShootsHealth()
+{
+if (bulletthing.x > 800)
+{
+gf.playAnim('scared');
+currentPlayState.health -= (bulletthing.x / 2) / 100000;
+}
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

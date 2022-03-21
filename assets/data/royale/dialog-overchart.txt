@@ -1,0 +1,11 @@
+[178[ [179[ [223[ [216[ |Roleplayer| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:roleplayer: !RoyaleHigh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      *Punches*
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      No
+:roleplayer: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      ?
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Yeah, you heard me, no
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      What even are you?
+:roleplayer: !uhh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      Im a, half_angel, half_
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Half what huh?
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Half demon? Wheres the demon?
+:bfoverchart: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Where is the demon ur talking about?
+:roleplayer: !wut! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |true| #classic# ^pixelText^ !#A2AD7C! ?#3B3F2D? .. ~~      ;_;

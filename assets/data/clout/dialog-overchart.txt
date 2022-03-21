@@ -1,0 +1,15 @@
+[178[ [179[ [223[ [216[ |Stitchface| *0* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:stitchface: !dotdot! [Funkin[ ]30] *100* =1= +0+ -0- <1< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      ...
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Hey!!
+:stitchface: !nani! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic_loud# ^pixelText^ !#050505! ?#353535? .. ~~      ?!
+:stitchface: !lol! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      Lol, look at this midget.
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      Oooga booga booga booga
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      OOOO OO OOOOO OOO
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      ###?! WHAT THE HECK ARE U EVEN SAYING?
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      ARE U STILL IN THE CAVE MAN TIME OR SOMETHIN?!
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      GO TO UR OWN TIMELINE MIDGET
+:bf: !angry! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#B7D855! ?#475421? .. ~~      OGA OGA OOGA GOOOAA
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      YOU DRUNK??!
+:stitchface: !grr! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      LET ME JUST GIVE U A WAKE UP CALL..
+:stitchface: !gimme! [Funkin[ ]30] *100* =1= +0+ -0- <0.04< >4> ;0.04; |true| #classic# ^pixelText^ !#050505! ?#353535? .. ~~      GIVE ME THE MICROPHONE U WEIRD GIRL.
+:gf: !ugh! [Funkin[ ]30] *100* =1= +0+ -0- <0.08< >4> ;0.04; |false| #classic# ^pixelText^ !#336667! ?#1A3535? .. ~~      call me weird again and ill snap ur neck
