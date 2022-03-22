@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait.png"><SubTexture name="dotdot0000" x="0" y="0" width="287" height="355" frameX="-15" frameY="-11" frameWidth="306" frameHeight="366" />
+<SubTexture name="nani0000" x="287" y="0" width="280" height="355" frameX="-1" frameY="-11" frameWidth="306" frameHeight="366" />
+<SubTexture name="lol0000" x="567" y="0" width="266" height="355" frameX="-15" frameY="-11" frameWidth="306" frameHeight="366" />
+<SubTexture name="grr0000" x="0" y="355" width="266" height="355" frameX="-15" frameY="-11" frameWidth="306" frameHeight="366" />
+<SubTexture name="illshow0000" x="833" y="344" width="292" height="341" frameX="-8" frameY="-25" frameWidth="306" frameHeight="366" />
+<SubTexture name="gimmeharsh0000" x="532" y="355" width="299" height="344" frameX="-7" frameY="-22" frameWidth="306" frameHeight="366" />
+<SubTexture name="gimme0000" x="833" y="0" width="299" height="344" frameX="-7" frameY="-22" frameWidth="306" frameHeight="366" />
+<SubTexture name="smile0000" x="266" y="355" width="266" height="355" frameX="-15" frameY="-11" frameWidth="306" frameHeight="366" />
+</TextureAtlas>

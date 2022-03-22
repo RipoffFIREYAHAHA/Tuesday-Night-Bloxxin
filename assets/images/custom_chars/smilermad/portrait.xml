@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait.png"><SubTexture name="default0000" x="488" y="0" width="244" height="340" frameX="-44" frameY="-26" frameWidth="306" frameHeight="366" />
+<SubTexture name="uhh0000" x="0" y="342" width="244" height="340" frameX="-44" frameY="-26" frameWidth="306" frameHeight="366" />
+<SubTexture name="bruh0000" x="0" y="0" width="244" height="342" frameX="-44" frameY="-24" frameWidth="306" frameHeight="366" />
+<SubTexture name="cursed0000" x="244" y="0" width="244" height="342" frameX="-44" frameY="-24" frameWidth="306" frameHeight="366" />
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="e.png"><SubTexture name="RoyaleHigh0000" x="0" y="0" width="293" height="366" frameX="-9" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="wut0000" x="293" y="0" width="293" height="366" frameX="-9" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="uhh0000" x="586" y="0" width="293" height="366" frameX="-9" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="ummno0000" x="0" y="366" width="293" height="366" frameX="-9" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="god0000" x="293" y="366" width="300" height="366" frameX="-6" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="alright0000" x="879" y="0" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="beep0000" x="879" y="366" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="owo0000" x="0" y="732" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="yes0000" x="303" y="732" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="but0000" x="606" y="732" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="uwu0000" x="1182" y="0" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+<SubTexture name="grr0000" x="1182" y="366" width="303" height="366" frameX="-3" frameY="0" frameWidth="306" frameHeight="366" />
+</TextureAtlas>

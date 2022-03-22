@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="e.png"><SubTexture name="godwhy0000" x="0" y="286" width="201" height="275" frameX="-55" frameY="-91" frameWidth="306" frameHeight="366" />
+<SubTexture name="bruh0000" x="201" y="286" width="201" height="275" frameX="-55" frameY="-91" frameWidth="306" frameHeight="366" />
+<SubTexture name="weird0000" x="0" y="0" width="204" height="286" frameX="-63" frameY="-80" frameWidth="306" frameHeight="366" />
+<SubTexture name="grr0000" x="204" y="0" width="261" height="286" frameX="-6" frameY="-80" frameWidth="306" frameHeight="366" />
+<SubTexture name="emotions0000" x="465" y="0" width="204" height="286" frameX="-63" frameY="-80" frameWidth="306" frameHeight="366" />
+</TextureAtlas>

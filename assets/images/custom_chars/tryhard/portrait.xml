@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="e.png"><SubTexture name="ShootGoesBrr0000" x="0" y="0" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Wut0000" x="319" y="0" width="321" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Hey0000" x="640" y="0" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Hehe0000" x="0" y="382" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Hehehe0000" x="319" y="382" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Yeah0000" x="638" y="382" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Ugh0000" x="959" y="0" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Eyy0000" x="959" y="382" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Uhh0000" x="0" y="764" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="What0000" x="319" y="764" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Grr0000" x="638" y="764" width="328" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Bleh0000" x="1278" y="0" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Cmon0000" x="1278" y="382" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Hurry0000" x="1278" y="764" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Wow0000" x="0" y="1146" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="Tf0000" x="319" y="1146" width="319" height="382" frameX="-5" frameY="-6" frameWidth="355" frameHeight="388" />
+<SubTexture name="GasHuh0000" x="1243" y="1146" width="275" height="358" frameX="-79" frameY="-30" frameWidth="355" frameHeight="388" />
+<SubTexture name="GasInterest0000" x="1597" y="0" width="275" height="358" frameX="-79" frameY="-30" frameWidth="355" frameHeight="388" />
+<SubTexture name="GasYeah0000" x="1597" y="358" width="275" height="358" frameX="-79" frameY="-30" frameWidth="355" frameHeight="388" />
+<SubTexture name="GasAlright0000" x="918" y="1146" width="325" height="360" frameX="-29" frameY="-28" frameWidth="355" frameHeight="388" />
+<SubTexture name="GasGurl0000" x="1597" y="716" width="275" height="358" frameX="-79" frameY="-30" frameWidth="355" frameHeight="388" />
+<SubTexture name="Gurl0000" x="966" y="764" width="280" height="372" frameX="-59" frameY="-16" frameWidth="355" frameHeight="388" />
+<SubTexture name="Bouy0000" x="638" y="1146" width="280" height="372" frameX="-59" frameY="-16" frameWidth="355" frameHeight="388" />
+</TextureAtlas>
