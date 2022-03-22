@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bloxie.png"><SubTexture name="Bloxie idle0000" x="1053" y="0" width="351" height="709" frameX="-35" frameY="-17" frameWidth="469" frameHeight="730" />
+<SubTexture name="Bloxie idle0001" x="702" y="0" width="351" height="714" frameX="-35" frameY="-12" frameWidth="469" frameHeight="730" />
+<SubTexture name="Bloxie idle0002" x="351" y="0" width="351" height="718" frameX="-35" frameY="-8" frameWidth="469" frameHeight="730" />
+<SubTexture name="Bloxie idle0003" x="0" y="0" width="351" height="719" frameX="-35" frameY="-6" frameWidth="469" frameHeight="730" />
+</TextureAtlas>

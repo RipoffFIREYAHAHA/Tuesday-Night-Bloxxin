@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beh.png"><SubTexture name="space0000" x="206" y="155" width="206" height="153" frameX="-1035" frameY="-559" frameWidth="1280" frameHeight="730" />
+<SubTexture name="space0001" x="0" y="155" width="206" height="154" frameX="-1035" frameY="-559" frameWidth="1280" frameHeight="730" />
+<SubTexture name="space0002" x="0" y="0" width="206" height="155" frameX="-1035" frameY="-559" frameWidth="1280" frameHeight="730" />
+<SubTexture name="space0003" x="206" y="0" width="206" height="155" frameX="-1035" frameY="-559" frameWidth="1280" frameHeight="730" />
+<SubTexture name="space0004" x="0" y="155" width="206" height="154" frameX="-1035" frameY="-559" frameWidth="1280" frameHeight="730" />
+</TextureAtlas>
