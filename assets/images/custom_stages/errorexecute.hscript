@@ -1,0 +1,123 @@
+var bg = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'stageback.png');
+    bg.scrollFactor.set(0.9, 0.9);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+	
+var error = new FlxSprite(-1200, -400).loadGraphic(hscriptPath + 'error' + Std.random(11) + '.png');
+    error.scrollFactor.set(0.9, 0.9);
+	error.screenCenter();
+    error.alpha = 0;
+	error.cameras = [camHUD];
+    error.antialiasing = true;	
+	
+var error2 = new FlxSprite(-1200, -400).loadGraphic(hscriptPath + 'error' + Std.random(11) + '.png');
+    error2.scrollFactor.set(0.9, 0.9);
+	error2.screenCenter();
+    error2.alpha = 0;
+	error2.x += 455;
+	error2.y -= 35;
+    error2.antialiasing = true;	
+	
+var shake = 0;	
+var allowfade = 2;
+	
+function start(song) {
+	dad.alpha = 0;
+	camHUD.alpha = 0;
+	dad.x += 830;
+	gf.visible = 0;
+	boyfriend.visible = 0;
+    setDefaultZoom(0.9);
+	addSprite(error, BEHIND_NONE);
+	addSprite(error2, BEHIND_NONE);
+	currentPlayState.iconP1.alpha = 0;
+		currentPlayState.iconP2.alpha = 0;
+		currentPlayState.healthBar.alpha = 0;
+		currentPlayState.healthBarBG.alpha = 0;
+	
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+	if (shake == 1)
+	{
+	FlxG.camera.shake(0.01, 0.08);
+	camHUD.shake(0.01, 0.08);
+	}
+}
+
+function stepHit(step)
+{
+	switch(curStep)
+	{
+	case 32:
+	camHUD.alpha = 1;
+	
+	case 444 , 476 , 540 , 668:
+	shake = 1;
+	error.alpha = 1;
+	
+case 448 , 480 , 544 , 672:
+	shake = 0;
+	error.alpha = 0;
+	
+case 796:
+	allowfade = 1;
+	
+case 800:
+	error2.alpha = 1;
+	shake = 2;
+	}
+	
+	if (allowfade == 1)
+	{
+	camHUD.alpha -= 0.2;	
+	}
+	
+	if (allowfade == 2)
+	{
+	dad.alpha += 0.03125;
+	camHUD.alpha += 0.001;
+	}
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+	if (currentPlayState.health > 0.2)
+	{
+	currentPlayState.health -= 0.02;	
+	}
+	
+	if (shake == 2)
+	{
+	FlxG.camera.shake(0.02, 0.16);
+	camHUD.shake(0.02, 0.16);
+	}
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

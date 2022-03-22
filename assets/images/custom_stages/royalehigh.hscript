@@ -1,0 +1,73 @@
+var bg = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'stageback.png');
+    bg.scrollFactor.set(0.9, 0.9);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+var bloxwatch = new FlxSprite().loadGraphic('assets/images/UpperScreen/Roleplayer/Bloxwatcheyes.png');
+    bloxwatch.scrollFactor.set(0.9, 0.9);
+    bloxwatch.antialiasing = true;
+	bloxwatch.x -= 610;
+	bloxwatch.y -= 200;
+function start(song) {
+	
+	bum = new MetroSprite(-300,140, true);
+    bum.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'people.png', hscriptPath + 'people.xml');
+    bum.animation.addByPrefix("idle", "idle", 24, false);
+    bum.antialiasing = true;
+    bum.scrollFactor.set(0.9, 0.9);
+    addSprite(bum, BEHIND_ALL);
+	
+	theguy = new MetroSprite(355,-220, true);
+    theguy.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'aguy.png', hscriptPath + 'aguy.xml');
+    theguy.animation.addByPrefix("idle", "idle", 24, false);
+    theguy.antialiasing = true;
+    theguy.scrollFactor.set(0.9, 0.9);
+    addSprite(theguy, BEHIND_ALL);
+	
+	switch Std.random(50)
+	{
+	case 25:
+	addSprite(bloxwatch, BEHIND_NONE);
+	}
+	
+    setDefaultZoom(0.9);
+}
+
+
+function beatHit(beat)
+{
+	theguy.dance();
+	bum.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

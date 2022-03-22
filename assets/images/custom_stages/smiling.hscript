@@ -1,0 +1,98 @@
+function start(song) {
+    var bg = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'stageback.png');
+    bg.scrollFactor.set(0.9, 0.9);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+	
+	Players = new FlxGroup();
+	
+	SmilerAgain = new MetroSprite(-150,70, true);
+    SmilerAgain.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'playerinside.png', hscriptPath + 'playerinside.xml');
+    SmilerAgain.animation.addByPrefix("idle", "idle", 24, false);
+    SmilerAgain.antialiasing = true;
+    SmilerAgain.scrollFactor.set(0.9, 0.9);
+	SmilerAgain.x += 400;
+	SmilerAgain.y += 20;
+    Players.add(SmilerAgain);
+	
+	Inside = new MetroSprite(-75,35, true);
+    Inside.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'Inside.png', hscriptPath + 'Inside.xml');
+    Inside.animation.addByPrefix("idle", "idle", 24, false);
+    Inside.antialiasing = true;
+    Inside.scrollFactor.set(0.9, 0.9);
+	Inside.x += 1400;
+	Inside.y += 190;
+	addSprite(Inside, BEHIND_ALL);
+	
+	var bgGlow = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'Glowing.png');
+    bgGlow.scrollFactor.set(0.9, 0.9);
+    bgGlow.antialiasing = true;
+    addSprite(bgGlow, BEHIND_ALL);
+	
+	
+	addSprite(Players, BEHIND_ALL);
+	
+	shotgunguy = new MetroSprite(-75,35, true);
+    shotgunguy.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'shotgunguy.png', hscriptPath + 'shotgunguy.xml');
+    shotgunguy.animation.addByPrefix("idle", "idle", 24, false);
+	shotgunguy.animation.addByPrefix("shoot", "shoot", 24, false);
+    shotgunguy.antialiasing = true;
+    shotgunguy.scrollFactor.set(0.9, 0.9);
+	shotgunguy.x += 1220;
+	shotgunguy.y += 75;
+	shotgunguy.flipX =  true;
+	addSprite(shotgunguy, BEHIND_ALL);
+	
+	
+    setDefaultZoom(0.9);
+}
+
+
+function beatHit(beat)
+{
+SmilerAgain.dance();
+Inside.dance();
+
+switch Std.random(15)
+{
+case 5:
+FlxG.sound.play(FNFAssets.getSound('assets/sounds/Smiler/shotgun' + TitleState.soundExt));
+shotgunguy.animation.play('shoot');
+
+default:
+shotgunguy.animation.play('idle');
+}
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+
