@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="femalebops.png"><SubTexture name="femalebops idle0000" x="0" y="0" width="895" height="599" frameX="-1043" frameY="-50" frameWidth="1975" frameHeight="660" />
+<SubTexture name="femalebops idle0001" x="895" y="0" width="895" height="595" frameX="-1043" frameY="-54" frameWidth="1975" frameHeight="660" />
+<SubTexture name="femalebops idle0002" x="895" y="599" width="895" height="590" frameX="-1043" frameY="-60" frameWidth="1975" frameHeight="660" />
+<SubTexture name="femalebops idle0003" x="0" y="599" width="895" height="593" frameX="-1043" frameY="-56" frameWidth="1975" frameHeight="660" />
+</TextureAtlas>

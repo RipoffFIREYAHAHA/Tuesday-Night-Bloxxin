@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="malebops.png"><SubTexture name="malebops idle0000" x="0" y="0" width="929" height="619" frameX="-31" frameY="-33" frameWidth="1975" frameHeight="660" />
+<SubTexture name="malebops idle0001" x="0" y="619" width="929" height="609" frameX="-31" frameY="-43" frameWidth="1975" frameHeight="660" />
+<SubTexture name="malebops idle0002" x="929" y="619" width="929" height="603" frameX="-31" frameY="-50" frameWidth="1975" frameHeight="660" />
+<SubTexture name="malebops idle0003" x="929" y="0" width="929" height="614" frameX="-31" frameY="-38" frameWidth="1975" frameHeight="660" />
+</TextureAtlas>

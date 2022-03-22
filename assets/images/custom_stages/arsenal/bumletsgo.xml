@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bum.png"><SubTexture name="bum idle0000" x="0" y="0" width="1948" height="659" frameX="-26" frameY="0" frameWidth="1975" frameHeight="660" />
+<SubTexture name="bum idle0001" x="0" y="659" width="1948" height="652" frameX="-26" frameY="-7" frameWidth="1975" frameHeight="660" />
+<SubTexture name="bum idle0002" x="1948" y="647" width="1948" height="645" frameX="-26" frameY="-14" frameWidth="1975" frameHeight="660" />
+<SubTexture name="bum idle0003" x="1948" y="0" width="1948" height="647" frameX="-26" frameY="-12" frameWidth="1975" frameHeight="660" />
+</TextureAtlas>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beh.png"><SubTexture name="shooting0000" x="0" y="633" width="1206" height="619" frameX="-30" frameY="-31" frameWidth="1286" frameHeight="730" />
+<SubTexture name="shooting0001" x="0" y="0" width="1255" height="633" frameX="-31" frameY="-21" frameWidth="1286" frameHeight="730" />
+</TextureAtlas>

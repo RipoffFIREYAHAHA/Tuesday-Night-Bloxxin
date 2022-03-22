@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bandit.png"><SubTexture name="Bandit idle0000" x="244" y="0" width="241" height="314" frameX="-17" frameY="-134" frameWidth="297" frameHeight="597" />
+<SubTexture name="Bandit idle0001" x="485" y="0" width="242" height="314" frameX="-15" frameY="-135" frameWidth="297" frameHeight="597" />
+<SubTexture name="Bandit idle0002" x="0" y="315" width="244" height="313" frameX="-13" frameY="-136" frameWidth="297" frameHeight="597" />
+<SubTexture name="Bandit idle0003" x="0" y="0" width="244" height="315" frameX="-13" frameY="-134" frameWidth="297" frameHeight="597" />
+</TextureAtlas>

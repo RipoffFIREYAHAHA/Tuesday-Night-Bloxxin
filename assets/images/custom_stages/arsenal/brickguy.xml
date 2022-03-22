@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="brickguy.png"><SubTexture name="brickguy idle0000" x="480" y="0" width="160" height="304" frameX="-40" frameY="-49" frameWidth="200" frameHeight="402" />
+<SubTexture name="brickguy idle0001" x="320" y="0" width="160" height="307" frameX="-39" frameY="-49" frameWidth="200" frameHeight="402" />
+<SubTexture name="brickguy idle0002" x="0" y="0" width="160" height="312" frameX="-39" frameY="-49" frameWidth="200" frameHeight="402" />
+<SubTexture name="brickguy idle0003" x="160" y="0" width="160" height="310" frameX="-39" frameY="-49" frameWidth="200" frameHeight="402" />
+</TextureAtlas>
