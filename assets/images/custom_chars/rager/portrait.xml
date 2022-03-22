@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="e.png"><SubTexture name="bruh0000" x="600" y="388" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="doublegrr0000" x="1153" y="357" width="294" height="352" frameX="-42" frameY="-36" frameWidth="355" frameHeight="388" />
+<SubTexture name="grr0000" x="910" y="0" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="great0000" x="910" y="357" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="wow0000" x="0" y="764" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="hehe0000" x="243" y="764" width="245" height="357" frameX="-46" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="letsgoo0000" x="273" y="0" width="326" height="387" frameX="-3" frameY="-1" frameWidth="355" frameHeight="388" />
+<SubTexture name="ez0000" x="599" y="0" width="311" height="376" frameX="-32" frameY="-12" frameWidth="355" frameHeight="388" />
+<SubTexture name="z0000" x="0" y="388" width="311" height="376" frameX="-32" frameY="-12" frameWidth="355" frameHeight="388" />
+<SubTexture name="wut0000" x="0" y="0" width="273" height="388" frameX="-48" frameY="0" frameWidth="355" frameHeight="388" />
+<SubTexture name="xd0000" x="311" y="388" width="289" height="375" frameX="-30" frameY="-13" frameWidth="355" frameHeight="388" />
+<SubTexture name="really0000" x="488" y="764" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="bars0000" x="731" y="764" width="243" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+<SubTexture name="cursed0000" x="1153" y="0" width="298" height="357" frameX="-48" frameY="-31" frameWidth="355" frameHeight="388" />
+</TextureAtlas>

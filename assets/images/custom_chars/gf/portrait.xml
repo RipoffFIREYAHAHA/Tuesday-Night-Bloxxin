@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="e.png"><SubTexture name="ugh0000" x="0" y="0" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="offended0000" x="383" y="0" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="yeahsure0000" x="0" y="337" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="hey0000" x="383" y="337" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="wut0000" x="766" y="0" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="wantmicro0000" x="766" y="337" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="notmicro0000" x="0" y="674" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="snatch0000" x="383" y="674" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="heyy0000" x="766" y="674" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="huh0000" x="1149" y="0" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="well0000" x="1149" y="337" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="uhh0000" x="1149" y="674" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="hmm0000" x="0" y="1011" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="sassy0000" x="383" y="1011" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="grr0000" x="766" y="1011" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="anger0000" x="1149" y="1011" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="angerspeak0000" x="1532" y="0" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="goodluck0000" x="1532" y="337" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="supersaiyan0000" x="1532" y="674" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="heyyy0000" x="1532" y="1011" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="woops0000" x="0" y="1348" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="types0000" x="383" y="1348" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="hah0000" x="766" y="1348" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="smilerisbackagain0000" x="1149" y="1348" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+<SubTexture name="og0000" x="1532" y="1348" width="383" height="337" frameX="0" frameY="0" frameWidth="383" frameHeight="337" />
+</TextureAtlas>
