@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beh.png"><SubTexture name="one0000" x="0" y="0" width="140" height="225" frameX="-7" frameY="-235" frameWidth="1286" frameHeight="730" />
+<SubTexture name="one0001" x="140" y="0" width="143" height="225" frameX="-8" frameY="-236" frameWidth="1286" frameHeight="730" />
+<SubTexture name="change0000" x="283" y="0" width="143" height="206" frameX="-8" frameY="-252" frameWidth="1286" frameHeight="730" />
+<SubTexture name="change0001" x="414" y="225" width="138" height="183" frameX="-8" frameY="-274" frameWidth="1286" frameHeight="730" />
+<SubTexture name="change0002" x="277" y="225" width="137" height="197" frameX="-9" frameY="-259" frameWidth="1286" frameHeight="730" />
+<SubTexture name="change0003" x="140" y="225" width="137" height="197" frameX="-8" frameY="-258" frameWidth="1286" frameHeight="730" />
+<SubTexture name="two0000" x="0" y="225" width="140" height="200" frameX="-7" frameY="-254" frameWidth="1286" frameHeight="730" />
+<SubTexture name="two0001" x="426" y="0" width="137" height="202" frameX="-9" frameY="-253" frameWidth="1286" frameHeight="730" />
+</TextureAtlas>
