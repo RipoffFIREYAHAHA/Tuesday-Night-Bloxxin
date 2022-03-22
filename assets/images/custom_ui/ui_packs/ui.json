@@ -1,0 +1,25 @@
+{
+    "normal": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        //uses is the folder it actually goes into :blush:
+        // we use this to make judgements and shit : )
+        // this also applies to judgements loser
+        "uses": "normal"
+    },
+    "pixel": {
+        "isPixel": true,
+        "builtInJudgement": false,
+        "uses": "normal"
+    },
+	"royale": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "royale"
+    },
+	"smile": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "smile"
+    }
+}
