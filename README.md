@@ -3,19 +3,10 @@
 [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 
-This is the repository for Friday Night Funkin Modding Plus, a mod for FNF to add more features for modders and players alike.
+Hey look, its a thing
 
-Any mods made with this mod must have express permission from the creator of songs included. 
-(for example, if you include the Whitty Mod, you should have express permission from Nate Anim8, KadeDev, and SockClip.
-I at least would like to see the main author and a majority of secondary offers get express permission)
-If an author gives express disapproval, and the mod is up, you should take your mod down. I own the code to this mod so I can (and will)
-take down mods that don't follow this rule.
+I have nothing else to say, Im tired af
 
-
-- Get the cutting edge build: https://dev.azure.com/benharless820/FNF%20Modding%20Plus/_build
-- Play the Original Game: https://github.com/ninjamuffin99/Funkin
-- Need Help? FNF Modding Plus Discord: https://discord.gg/xeC748FR
-- Trello Page (todo list): https://trello.com/b/cFjJJIjF/fnf-modding-plus
 ## Credits for the Original Game
 
 - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programmer
@@ -85,6 +76,8 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 * Windows 10 SDK (10.0.16299.0)
 * MSVC v141 - VS 2017 C++ x64/x86 build tools
 * MSVC v140 - VS 2015 C++ build tools (v14.00)
+
+DONT FORGET TJSON FAGGOT
 
 This will install about 22GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
